@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Display PID with proc name "bash"
 
-pgrep -l "bash"
+ps axuf | pgrep -l "bash"
