@@ -3,4 +3,4 @@
 # Must show all processes, for all users.
 # Displays a user-oriented format.
 # Shows process hierarchy.
-ps -auxf
+ps axuf
