@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # displays a list of currently running processes
-ps faux
+# Must show all processes, for all users
+ps -faux
