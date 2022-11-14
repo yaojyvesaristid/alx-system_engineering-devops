@@ -9,7 +9,7 @@
 trap "sudo rm -r /var/run/myscript.pid; exit" SIGQUIT
 trap "echo I hate the kill command; sudo rm -r /var/run/myscript.pid; exit" SIGTERM
 trap "echo Y U no love me?!; exit" SIGINT
-touch /var/run/myscript.pid
+echo $$ >> /var/run/myscript.pid
 while true; do
     echo "To infinity and beyond"
     sleep 2
